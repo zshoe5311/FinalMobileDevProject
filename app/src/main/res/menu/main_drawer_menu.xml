@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_basket"
+            android:icon="@drawable/ic_baseline_shopping_basket_24"
+            android:title="Your Shopping Basket"/>
+        <item android:id="@+id/nav_list"
+            android:icon="@drawable/ic_baseline_list_24"
+            android:title="Shopping List"/>
+        <item android:id="@+id/nav_recentpurchase"
+            android:icon="@drawable/ic_baseline_attach_money_24"
+            android:title="Recently Purchased/Your Balance"/>
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="Log out"/>
+    </group>
+</menu>
